@@ -1,4 +1,3 @@
 [build]
-  command = "npm start"  # Adjust this based on your start script
-  functions = "backend"  # This assumes your serverless functions are in the "functions" directory        
+  command = "npm start"  # Adjust this based on your start script 
   environment = { NETLIFY_FUNCTION = "true" }
